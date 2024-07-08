@@ -1,0 +1,18 @@
+debug: false
+uuid: bbbd34df-74ad-4473-8cc7-c99e39c9949f
+token_id: CiCMjSIrtxiEGr6N
+token: 487i2KKSigCl04E9xoHVsj1H09jw4HViLW7XBpL3pn2mY1fVJkCGSWh6xe0dX6G9
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/wings.robbeonline.com/fullchain.pem
+    key: /etc/letsencrypt/live/wings.robbeonline.com/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://panel.robbeonline.com'
