@@ -1,0 +1,18 @@
+debug: false
+uuid: 39da74bb-9b0f-4640-aaf4-eb5811a6c8c8
+token_id: Yj67fWEyjBQJCxLh
+token: l2CrkThzXoeNodLwL3g885Lvl1qZYLLnSV50fozcrYLQn9ItfroG64mgdeSa5nDN
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/node.lucadandois.com/fullchain.pem
+    key: /etc/letsencrypt/live/node.lucadandois.com/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://panel.lucadandois.com'
